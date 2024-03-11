@@ -228,8 +228,8 @@ a {
     /* background-color: var(--color-green-100); */
     background: linear-gradient(
       to bottom,
-      rgba(116, 198, 157, 1) 50%,
-      rgba(255, 255, 255, 0.5) 100%
+      rgba(116, 198, 157, 1) 60%,
+      rgba(255, 255, 255, 0.25) 100%
     );
     width: 100%;
     right: 0;
