@@ -1,7 +1,12 @@
 # Codecheff
-
-<div><img src="Screenshot from 2024-03-11 15-02-48.png"></div>
-<div><img src="Screenshot from 2024-03-11 15-03-06.png"></div>
+<div align="center">
+  <img src="Screenshot from 2024-03-11 15-02-48.png" width="600" height="450" />
+  <img src="Screenshot from 2024-03-11 15-37-37.png" width="200" height="450" />
+</div>
+<div align="center">
+  <img src="Screenshot from 2024-03-11 15-03-06.png" width="600" height="450" />
+  <img src="Screenshot from 2024-03-11 15-38-02.png" width="200" height="450" />
+</div>
 
 Codecheff is a responsive website showcasing our services, portfolio, team, and more.
 
