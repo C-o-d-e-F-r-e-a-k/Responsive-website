@@ -1,0 +1,20 @@
+
+.section-1 {
+  display: grid;
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+
+.section-1-content-text {
+  font-family: var(--font-2);
+  font-size: var(--sub);
+}
+
+.section-1-images {
+  align-items: start;
+  /* padding: 25px 0; */
+}
+
+.section-1-btn {
+  justify-self: center;
+}

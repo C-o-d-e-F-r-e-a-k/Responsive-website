@@ -1,0 +1,211 @@
+/* style rules for section-1 */
+
+.section-1-left-text {
+  font-size: var(--body);
+  font-family: var(--font-2);
+  color: var(--color-white-75);
+}
+
+.section-1-left-btn {
+  margin-top: 20px;
+  align-self: start;
+}
+
+/* style rules for section-2 */
+
+.section-2-content-text {
+  font-family: var(--font-2);
+  font-size: var(--sub);
+}
+
+.section-2-logo {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.section-2-logo img {
+  justify-self: center;
+  align-self: center;
+}
+
+.section-2 {
+  display: grid;
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.section-2-btn {
+  justify-self: center;
+}
+
+/* style rules for section-3 */
+
+.section-3-right-text {
+  color: var(--color-dark-50);
+  font-family: var(--font-2);
+  font-size: var(--body);
+}
+
+.section-3-right-btn {
+  align-self: start;
+  margin-top: 20px;
+}
+
+/* style rules for section-4 */
+
+.section-4-left-btn {
+  align-self: start;
+  margin-top: 20px;
+}
+
+.section-4-left-text {
+  color: var(--color-dark-50);
+  font-family: var(--font-2);
+  font-size: var(--body);
+}
+
+/* style rules for section-5 */
+
+.section-5 {
+  display: grid;
+  gap: 30px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.section-5-content-text {
+  color: var(--color-dark-75);
+  font-family: var(--font-2);
+  font-size: var(--sub);
+}
+
+.section-5-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+[class^="section-5-cards-"] {
+  box-shadow: var(--shadow-1);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 20px 25px;
+  gap: 15px;
+}
+
+.section-5-cards img {
+  max-width: 100%;
+  height: auto;
+}
+
+[class^="section-5-cards-"] .name {
+  font-family: var(--font-1);
+  font-size: var(--h5);
+  font-weight: bold;
+}
+
+[class^="section-5-cards-"] .position {
+  font-family: var(--font-2);
+  color: var(--color-dark-75);
+  text-transform: uppercase;
+}
+
+.section-5-btn {
+  justify-self: center;
+}
+
+/* Media queries for Desktop screen */
+
+@media (max-width: 1200px) {
+  .section-2-logo {
+    gap: 30px;
+  }
+}
+
+/* Media queries for Tablet screen */
+
+@media (max-width: 768px) {
+  .section-1-right,
+  .section-4-right {
+    order: 0;
+  }
+
+  .section-1-left,
+  .section-4-left {
+    order: 1;
+  }
+
+  .section-4-left-btn,
+  .section-3-right-btn {
+    align-self: center;
+  }
+
+  .section-2-logo {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+
+  .section-2-logo-4,
+  .section-2-logo-5 {
+    margin-left: 160px;
+  }
+
+  .section-5-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .navbar__menu {
+    height: auto;
+    padding-bottom: 204px;
+    background: linear-gradient(
+      to bottom,
+      rgba(116, 198, 157, 1) 100%,
+      rgba(255, 255, 255, 0.5) 0%
+    );
+  }
+  .navbar__menu--1 {
+    margin-top: 160px;
+  }
+}
+
+/* Media queries for Mobile screen */
+
+@media (max-width: 568px) {
+  .section-2-logo {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+
+  .section-2-logo-4,
+  .section-2-logo-5 {
+    margin-left: 0px;
+  }
+
+  .section-2-btn {
+    margin-top: 10px;
+  }
+
+  .section-5-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    max-width: 80%;
+    margin: 0px 50px;
+  }
+
+  .section-5-content {
+    display: grid;
+    gap: 10px;
+  }
+
+  .section-1-left {
+    text-align: center;
+  }
+
+  .section-1-left-btn {
+    align-self: center;
+  }
+}
