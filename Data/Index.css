@@ -162,8 +162,8 @@
     padding-bottom: 204px;
     background: linear-gradient(
       to bottom,
-      rgba(116, 198, 157, 1) 60%,
-      rgba(255, 255, 255, 0.25) 100%
+      rgba(116, 198, 157, 1) 100%,
+      rgba(255, 255, 255, 0.25) 0%
     );
   }
   .navbar__menu--1 {
